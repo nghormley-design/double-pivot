@@ -1,0 +1,62 @@
+{
+  "name": "Double Pivot Soccer Organizer",
+  "short_name": "Double Pivot",
+  "description": "Soccer team management for coaches — rosters, tactics, schedules, live match tracking & stats",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d2118",
+  "theme_color": "#1a3a2a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["sports", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Live Match Tracker",
+      "short_name": "Live",
+      "url": "./index.html",
+      "description": "Track a live match in real time",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Tactics Board",
+      "short_name": "Tactics",
+      "url": "./index.html",
+      "description": "Open the tactics board",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Team Roster",
+      "short_name": "Roster",
+      "url": "./index.html",
+      "description": "View and manage your team roster",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false
+}

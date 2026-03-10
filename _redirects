@@ -1,0 +1,2 @@
+# Serve index.html for all routes (needed for PWA)
+/*    /index.html   200
